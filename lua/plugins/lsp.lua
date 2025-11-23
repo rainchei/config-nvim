@@ -14,7 +14,17 @@ return {
         "gopls",
         "nomicfoundation-solidity-language-server",
         "efm",
+        "gdtoolkit",
       })
     end,
+  },
+  -- Configs
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        gdscript = {},
+      },
+    },
   },
 }

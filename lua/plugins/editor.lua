@@ -7,5 +7,15 @@ return {
         ["/"] = "noop",
       },
     },
+    filesystem = {
+      filtered_items = {
+        hide_gitignored = true,
+        hide_by_pattern = {
+          "*.uid",
+          "server.pipe",
+        },
+        visible = false,
+      },
+    },
   },
 }
